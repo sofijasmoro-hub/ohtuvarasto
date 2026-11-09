@@ -47,3 +47,4 @@ class Varasto:
 
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
+# tämä on tahallaan liian pitkä kommenttirivi, jotta pylint huomaa sen ja Actions punaistuu
